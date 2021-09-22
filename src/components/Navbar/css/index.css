@@ -1,0 +1,13 @@
+.navBar{
+    color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-expand-sm .navbar-collapse {
+    justify-content: center !important;
+}
+.logo{
+    margin: 0px 0px 0px 20px ;
+    color: white !important;
+}
