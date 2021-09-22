@@ -1,11 +1,13 @@
-import {Intro,Experience} from "./Intro";
+import { MySlider, MyNavbar, Intro } from "./components";
 
 function App() {
   return (
     <div>
+      <MyNavbar />
+      <MySlider />
       <Intro />
-      <Experience />
 
+      {/* <MyButtons color="error" variant="outlined">Click Me</MyButtons> */}
     </div>
   );
 }
