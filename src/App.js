@@ -1,14 +1,18 @@
-import { MySlider, MyNavbar, Intro } from "./components";
+import {Home} from "./components"
+import { Container, Row } from 'react-bootstrap';
+import "./App.css"
 
 function App() {
   return (
-    <div>
-      <MyNavbar />
-      <MySlider />
-      <Intro />
+    <Container fluid>
+      <Row>
+        </Row>
+        <Row>
+        <Home />
 
-      {/* <MyButtons color="error" variant="outlined">Click Me</MyButtons> */}
-    </div>
+      </Row>
+    </Container>
+
   );
 }
 

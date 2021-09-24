@@ -4,13 +4,12 @@ import "./css/index.css"
 
 let MyNavbar = () => {
     return (
-
-        <Navbar bg="danger" expand="sm">
+        <Navbar expand="sm" className="myNavBar">
             <Navbar.Brand className="logo" href="#">Portfolio Design</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav
-                    className="mr-auto my-2 my-lg-0"
+                    className="mr-auto my-2 my-lg-0 myNav"
                     style={{ maxHeight: '400px' }}
                     navbarScroll
                 >

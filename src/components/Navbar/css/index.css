@@ -7,7 +7,35 @@
 .navbar-expand-sm .navbar-collapse {
     justify-content: center !important;
 }
-.logo{
-    margin: 0px 0px 0px 20px ;
-    color: white !important;
+.myNavBar{
+    background-color: red !important;
 }
+.logo{
+    color: white !important;
+    margin: 0px 0px 0px 20px ;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+}
+
+  @keyframes logo {
+      0%   {color:white;
+           left:0px; top:0px;}
+      25%  {color:rgba(255, 253, 253, 0);
+           left:-200px; top:0px;}  
+    }
+    .myNav{
+        position: relative;
+        animation-name: nav;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-direction: reverse;
+    }
+    @keyframes nav {
+        0%   {color:white;
+             left:0px; top:0px;}
+        25%  {color:rgba(255, 253, 253, 0);
+             left:0px; top:-100px;}  
+      }

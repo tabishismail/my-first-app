@@ -1,0 +1,73 @@
+.heading{
+    text-align: center;
+
+}
+
+.head{
+    position: relative;
+    animation-name: intro;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    color: red;
+}
+@keyframes intro {
+    0%   {color:red;
+         left:0px; top:0px;}
+    25%  {color:rgba(247, 0, 0, 0);
+         right:0px; top:-2000px;}  
+}
+.object{
+    position: relative;
+    animation-name: object;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+}
+@keyframes object {
+    0%   {color:black;
+         right:0px; bottom:0px;}
+    25%  {color:rgba(255, 253, 253, 0);
+         right:1000px; bottom:0px;}  
+}
+.h4{
+    color: red !important;
+}
+.vision{
+    position: relative;
+    animation-name: vision;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+
+}
+@keyframes vision {
+    0%   {color:black;
+         left:0px; top:0px;}
+    25%  {color:rgba(255, 253, 253, 0);
+         left:1000px; top:0px;}  
+}
+.para{
+    text-align: justify;
+}
+.pic{
+    width: 300px;
+    position: relative;
+    animation-name: pic;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+
+}
+@keyframes pic {
+    0%   {color:black;
+         left:0px; bottom:0px;}
+    25%  {color:rgba(255, 253, 253, 0);
+         left:0px; bottom:-1000px;}  
+}
+.main{
+    padding: 20px;
+}
+.mt-20{
+    margin-top: 20px;
+}
