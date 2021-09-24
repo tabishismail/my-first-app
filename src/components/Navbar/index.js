@@ -1,6 +1,9 @@
 import { Button, Navbar, Form, Nav,NavDropdown,FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/index.css"
+import React from "react";
+import {Link} from "react-router-dom";
+
 
 let MyNavbar = () => {
     return (
@@ -13,13 +16,13 @@ let MyNavbar = () => {
                     style={{ maxHeight: '400px' }}
                     navbarScroll
                 >
-                    <Nav.Link className="navBar" href="#action1">Home</Nav.Link>
-                    <Nav.Link className="navBar" href="#action2">About</Nav.Link>
-                    <Nav.Link className="navBar" href="#action2">Skills</Nav.Link>
-                    <Nav.Link className="navBar"href="#action2">Experience</Nav.Link>
+                    <Nav.Link className="navBar" ><Link to="/" className="link">Home</Link></Nav.Link>
+                    <Nav.Link className="navBar"><Link to="/about" className="link">About</Link></Nav.Link>
+                    <Nav.Link className="navBar"><Link to="/skills" className="link">Skills</Link></Nav.Link>
+                    <Nav.Link className="navBar"><Link to="" className="link">Experience</Link></Nav.Link>
                     <NavDropdown className="navBar" title="Projects" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Graphic Designing</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Web Developing</NavDropdown.Item>
+                        <NavDropdown.Item  className="link"><Link className="link">Graphic Designing</Link></NavDropdown.Item>
+                        <NavDropdown.Item className="link" ><Link className="link">Web Developing</Link></NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link className="navBar" href="#">
                         Contact

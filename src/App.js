@@ -1,14 +1,14 @@
-import {Home} from "./components"
+
 import { Container, Row } from 'react-bootstrap';
 import "./App.css"
+import AppRouter from "./config/Router.js"
+
 
 function App() {
   return (
     <Container fluid>
-      <Row>
-        </Row>
-        <Row>
-        <Home />
+      <Row> 
+        <AppRouter />
 
       </Row>
     </Container>

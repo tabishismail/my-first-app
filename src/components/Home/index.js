@@ -5,9 +5,7 @@ import { MyNavbar } from "../"
 function Home() {
     return (
         <Container className="main justify-content-around">
-            <Row >
-                <MyNavbar />
-            </Row>
+            <Row><MyNavbar/></Row>
             <Row className="mt-20">
                 <Col xs lg="8">
                     <div className="heading">
