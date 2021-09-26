@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap"
 import pro1 from "../../assets/image/pro1.jpg"
 import pro2 from "../../assets/image/pro2.jpg"
 import pro3 from "../../assets/image/pro3.jpg"
-import pro4 from "../../assets/image/pro3.jpg"
+import pro4 from "../../assets/image/pro4.jpg"
 
 
 
