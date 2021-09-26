@@ -20,6 +20,7 @@
 }
 .object{
     position: relative;
+    color: white;
     animation-name: object;
     animation-duration: 4s;
     animation-iteration-count: 1;
@@ -27,7 +28,7 @@
     animation-timing-function: ease-out;
 }
 @keyframes object {
-    0%   {color:black;
+    0%   {color:rgb(255, 255, 255);
          right:0px; bottom:0px;}
     25%  {color:rgba(255, 253, 253, 0);
          right:1000px; bottom:0px;}  
@@ -38,6 +39,7 @@
 .vision{
     position: relative;
     animation-name: vision;
+    color: white;
     animation-duration: 4s;
     animation-iteration-count: 1;
     animation-direction: reverse;
@@ -45,7 +47,7 @@
 
 }
 @keyframes vision {
-    0%   {color:black;
+    0%   {color:rgb(255, 255, 255);
          left:0px; top:0px;}
     25%  {color:rgba(255, 253, 253, 0);
          left:1000px; top:0px;}  
@@ -71,6 +73,29 @@
 }
 .main{
     padding: 20px;
+    background-image: url(../../../assets/image/bg.jpg);
+    /* opacity:0.5; */
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+.main-bg{
+    padding: 20px;
+    background-color: rgba(56, 42, 42,0.85);
+    /* opacity:0.5; */
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
 }
 .mt-20{
     margin-top: 20px;

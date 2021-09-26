@@ -3,9 +3,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom";
-import { Home, About, Skills } from "../components"
+import { Home, About, Skills,Experience } from "../components"
 export default function AppRouter() {
     return (
         <Router>
@@ -13,6 +12,7 @@ export default function AppRouter() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/skills" component={Skills} />
+                <Route exact path="/experience" component={Experience} />
             </Switch>
         </Router>
 

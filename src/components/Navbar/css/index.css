@@ -9,6 +9,7 @@
 }
 .myNavBar{
     background-color: red !important;
+    max-height: 50px;
 }
 .logo{
     color: white !important;

@@ -1,0 +1,28 @@
+.status-bar{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.bar{
+    height: 1.5rem !important;
+}
+.bg-danger{ 
+    animation-name: bar;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* animation-direction: reverse; */
+    animation-timing-function: ease-in-out;
+}
+/* 
+.pic{
+    animation-name: pic;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+
+} */
+@keyframes bar {
+    0%   {width:0%;}
+    /* 25%  {width:50%;}   */
+}

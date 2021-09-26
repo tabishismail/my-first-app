@@ -19,7 +19,7 @@ let MyNavbar = () => {
                     <Nav.Link className="navBar" ><Link to="/" className="link">Home</Link></Nav.Link>
                     <Nav.Link className="navBar"><Link to="/about" className="link">About</Link></Nav.Link>
                     <Nav.Link className="navBar"><Link to="/skills" className="link">Skills</Link></Nav.Link>
-                    <Nav.Link className="navBar"><Link to="" className="link">Experience</Link></Nav.Link>
+                    <Nav.Link className="navBar"><Link to="/experience" className="link">Experience</Link></Nav.Link>
                     <NavDropdown className="navBar" title="Projects" id="navbarScrollingDropdown">
                         <NavDropdown.Item  className="link"><Link className="link">Graphic Designing</Link></NavDropdown.Item>
                         <NavDropdown.Item className="link" ><Link className="link">Web Developing</Link></NavDropdown.Item>
