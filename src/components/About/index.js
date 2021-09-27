@@ -7,15 +7,15 @@ import "./css/index.css"
 let About = () => {
     return (
         <Container className="main justify-content-around">
-            <Row className="main-bg">
+
                 <Row><MyNavbar /></Row>
                 <Row className="mt-20">
-                    <Col xs lg="6">
+                    <Col xs={12,{ order: 'first' }} lg="6" className="pad-5">
                     <Row className="justify-content-center">
                             <img className="pic1" src={img} alt="my Pic" />
                         </Row>
                     </Col>
-                    <Col xs lg="6">
+                    <Col xs={12} lg="6" className="pad-5">
                         <div className="heading">
                             <h1 className="head">About Me</h1>
                             <h4 className="vision h4">My Vision</h4>
@@ -44,7 +44,6 @@ let About = () => {
                         </div>
                     </Col>
                 </Row>
-            </Row>
         </Container>
 
     )

@@ -1,18 +1,18 @@
 .pic1{
     width: 550px;
     position: relative;
-    animation-name: pic;
+    animation-name: pic1;
     animation-duration: 4s;
     animation-iteration-count: 1;
-    animation-direction: reverse;
+    /* animation-direction: reverse; */
     animation-timing-function: ease-in-out;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(122, 0, 0, 0.514);
 
 }
-@keyframes pic {
-    0%   {color:black;
-         left:0px; bottom:0px;}
-    25%  {color:rgba(255, 253, 253, 0);
-         left:0px; bottom:-1000px;}  
+@keyframes pic1 {
+    0%   {left:-1000px; bottom:0px;
+    opacity: 0;}
+    25%  {left:0px; bottom:0px;
+    opacity: 1;}  
 }

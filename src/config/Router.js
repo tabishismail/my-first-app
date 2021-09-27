@@ -4,7 +4,7 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import { Home, About, Skills,Experience } from "../components"
+import { Home, About, Skills,Experience,Contact } from "../components"
 export default function AppRouter() {
     return (
         <Router>
@@ -13,6 +13,8 @@ export default function AppRouter() {
                 <Route exact path="/about" component={About} />
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/experience" component={Experience} />
+                <Route exact path="/contact" component={Contact} />
+
             </Switch>
         </Router>
 

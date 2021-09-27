@@ -1,4 +1,4 @@
-
+// import 'semantic-ui-css/semantic.min.css'
 import { Container, Row } from 'react-bootstrap';
 import "./App.css"
 import AppRouter from "./config/Router.js"

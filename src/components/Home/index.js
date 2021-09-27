@@ -5,10 +5,9 @@ import { MyNavbar } from "../"
 function Home() {
     return (
         <Container className="main justify-content-around">
-            <Row className="main-bg">
                 <Row><MyNavbar /></Row>
                 <Row className="mt-20">
-                    <Col xs lg="8">
+                    <Col xs={12} lg="8" className="pad-5">
                         <div className="heading">
                             <h1 className="head">TABISH MUHAMMAD ISMAIL</h1>
                             <h2 className="object">PROFESSIONAL FOCUS AND OBJECTIVE</h2>
@@ -27,14 +26,13 @@ function Home() {
                                 organization.  </p>
                         </div>
                     </Col>
-                    <Col xs lg="4">
+                    <Col xs={12,{ order: 'first' }} lg="4">
                         <Row className="justify-content-center">
-                            <img className="pic" src={img4} alt="my Pic" />
+                            <img className="picHome" src={img4} alt="my Pic" />
                         </Row>
 
                     </Col>
                 </Row>
-            </Row>
         </Container>
     )
 }

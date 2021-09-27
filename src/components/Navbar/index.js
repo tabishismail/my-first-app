@@ -1,8 +1,8 @@
-import { Button, Navbar, Form, Nav,NavDropdown,FormControl } from 'react-bootstrap';
+import { Button, Navbar, Form, Nav, NavDropdown, FormControl } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/index.css"
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 let MyNavbar = () => {
@@ -20,15 +20,9 @@ let MyNavbar = () => {
                     <Nav.Link className="navBar"><Link to="/about" className="link">About</Link></Nav.Link>
                     <Nav.Link className="navBar"><Link to="/skills" className="link">Skills</Link></Nav.Link>
                     <Nav.Link className="navBar"><Link to="/experience" className="link">Experience</Link></Nav.Link>
-                    <NavDropdown className="navBar" title="Projects" id="navbarScrollingDropdown">
-                        <NavDropdown.Item  className="link"><Link className="link">Graphic Designing</Link></NavDropdown.Item>
-                        <NavDropdown.Item className="link" ><Link className="link">Web Developing</Link></NavDropdown.Item>
-                    </NavDropdown>
-                    <Nav.Link className="navBar" href="#">
-                        Contact
-                    </Nav.Link>
+                    <Nav.Link className="navBar"><Link to="/contact" className="link">Contact</Link></Nav.Link>
                 </Nav>
-                
+
             </Navbar.Collapse>
         </Navbar>
     )

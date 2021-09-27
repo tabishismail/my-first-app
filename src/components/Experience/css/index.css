@@ -4,3 +4,37 @@
 .table{
     color: white;
 }
+.headExper{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    position: relative;
+    animation-name: headExper;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    /* animation-direction: reverse; */
+    animation-timing-function: ease-in-out;
+}
+@keyframes headExper {
+    0%   {left:-1000px; bottom:0px;
+    opacity: 0;}
+    25%  {left:0px; bottom:0px;
+    opacity: 1;}  
+}
+.myCardCol{
+    padding: 10px;
+    text-align: center;
+    animation-name: card;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes card {
+    0%   {opacity: 0;
+    width:0%}
+    25%  {opacity: 1;
+    width:100%}  
+}
+.myCard{
+    margin: 10px 10px ;
+}

@@ -8,7 +8,7 @@
 }
 .bg-danger{ 
     animation-name: bar;
-    animation-duration: 4s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     /* animation-direction: reverse; */
     animation-timing-function: ease-in-out;
@@ -24,5 +24,11 @@
 } */
 @keyframes bar {
     0%   {width:0%;}
-    /* 25%  {width:50%;}   */
+    /* 25%  {width: 100%;}   */
+}
+.Mynav{
+    height: 60px;
+}
+.colBar1{
+    max-height: 150px;
 }

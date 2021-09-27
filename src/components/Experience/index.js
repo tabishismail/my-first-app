@@ -28,14 +28,12 @@ let Experience = () => {
     }
     return (
         <Container className="main justify-content-around">
-            <Row className="main-bg">
-                <Row><MyNavbar /></Row>
-                <Row className="mt-20">
-                    <h1 className="head">Working Experience</h1>
-                </Row>
+                <Row className="Mynav"><MyNavbar /></Row>
                 <Row>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
+                    <h1 className="headExper">Working Experience</h1>
+                </Row>
+                <div className="d-flex justify-content-around flex-wrap align-items-center">
+                        <Card className="myCard" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={pro1} />
                             <Card.Body className="justify-content-center">
                                 <Card.Title>Figo Resturant</Card.Title>
@@ -48,9 +46,8 @@ let Experience = () => {
                                 </div>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
+
+                        <Card className="myCard" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={pro2} />
                             <Card.Body className="justify-content-center">
                                 <Card.Title>Shopwise</Card.Title>
@@ -63,9 +60,8 @@ let Experience = () => {
                                 </div>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
+
+                        <Card className="myCard" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={pro3} />
                             <Card.Body className="justify-content-center">
                                 <Card.Title>Salt n Pepper</Card.Title>
@@ -78,9 +74,8 @@ let Experience = () => {
                                 </div>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
+
+                        <Card className="myCard" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={pro4} />
                             <Card.Body className="justify-content-center">
                                 <Card.Title>Olx Design</Card.Title>
@@ -93,11 +88,10 @@ let Experience = () => {
                                 </div>
                             </Card.Body>
                         </Card>
-                    </Col>
 
-                </Row>
 
-            </Row>
+                    </div>
+
         </Container >
     )
 }

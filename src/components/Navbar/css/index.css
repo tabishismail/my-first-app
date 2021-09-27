@@ -18,14 +18,14 @@
     animation-name: logo;
     animation-duration: 4s;
     animation-iteration-count: 1;
-    animation-direction: reverse;
+    /* animation-direction: reverse; */
     animation-timing-function: ease-out;
 }
 
   @keyframes logo {
-      0%   {color:white;
+      25%   {color:white;
            left:0px; top:0px;}
-      25%  {color:rgba(255, 253, 253, 0);
+      0%  {color:rgba(255, 253, 253, 0);
            left:-200px; top:0px;}  
     }
     .myNav{
@@ -33,13 +33,13 @@
         animation-name: nav;
         animation-duration: 4s;
         animation-iteration-count: 1;
-        animation-direction: reverse;
+        /* animation-direction: reverse; */
         animation-timing-function: ease-out;
     }
     @keyframes nav {
-        0%   {color:white;
+        20%   {color:white;
              left:0px; top:0px;}
-        25%  {color:rgba(255, 253, 253, 0);
+        0%  {color:rgba(255, 253, 253, 0);
              left:0px; top:-100px;}  
       }
       .link{
